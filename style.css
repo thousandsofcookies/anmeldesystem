@@ -1,69 +1,69 @@
 /* Stile für den gesamten Körper der Webseite */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Setzt die Schriftart für die gesamte Seite */
+    background-color: #f4f4f4; /* Setzt die Hintergrundfarbe des Seiteninhalts auf ein helles Grau */
+    margin: 0; /* Entfernt den Standardabstand um den Seiteninhalt */
+    padding: 0; /* Entfernt die Standardinnenabstände um den Seiteninhalt */
 }
 
 /* Stile für den Container, der den Inhalt der Seite umschließt */
 .container {
-    width: 300px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    width: 300px; /* Setzt die feste Breite des Containers */
+    margin: 100px auto; /* Zentriert den Container horizontal und setzt einen oberen Abstand von 100px */
+    padding: 20px; /* Fügt Innenabstand innerhalb des Containers hinzu */
+    background-color: #fff; /* Setzt die Hintergrundfarbe des Containers auf Weiß */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Fügt einen leichten Schatten um den Container hinzu */
+    border-radius: 5px; /* Rundet die Ecken des Containers ab */
 }
 
 /* Stile für die Überschrift */
 h2 {
-    margin: 0 0 20px;
-    text-align: center;
+    margin: 0 0 20px; /* Entfernt den oberen Rand und fügt unten einen Abstand von 20px hinzu */
+    text-align: center; /* Zentriert den Text der Überschrift */
 }
 
 /* Stile für das Formular */
 form {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Setzt das Layout des Formulars auf flexbox */
+    flex-direction: column; /* Ordnet die Kinder-Elemente (Formularfelder) in einer Spalte an */
 }
 
 /* Stile für die Formular-Labels */
 label {
-    margin-bottom: 5px;
+    margin-bottom: 5px; /* Fügt einen unteren Abstand zu den Labels hinzu */
 }
 
 /* Stile für die Formular-Eingabefelder */
 input {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    margin-bottom: 10px; /* Fügt einen unteren Abstand zu den Eingabefeldern hinzu */
+    padding: 8px; /* Fügt Innenabstand innerhalb der Eingabefelder hinzu */
+    border: 1px solid #ccc; /* Setzt eine graue Umrandung für die Eingabefelder */
+    border-radius: 3px; /* Rundet die Ecken der Eingabefelder ab */
 }
 
 /* Stile für die Formular-Buttons */
 button {
-    padding: 10px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 3px;
-    cursor: pointer;
+    padding: 10px; /* Fügt Innenabstand innerhalb der Schaltfläche hinzu */
+    border: none; /* Entfernt die Standardumrandung der Schaltfläche */
+    background-color: #007bff; /* Setzt die Hintergrundfarbe der Schaltfläche auf ein Blau */
+    color: white; /* Setzt die Textfarbe der Schaltfläche auf Weiß */
+    border-radius: 3px; /* Rundet die Ecken der Schaltfläche ab */
+    cursor: pointer; /* Ändert den Mauszeiger bei Hover über die Schaltfläche zu einem Zeiger */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Ändert die Hintergrundfarbe der Schaltfläche beim Hover auf ein dunkleres Blau */
 }
 
 /* Stile für die Links */
 a {
-    text-decoration: none;
-    color: #007bff;
-    text-align: center;
-    display: block;
-    margin-top: 10px;
+    text-decoration: none; /* Entfernt die Unterstreichung der Links */
+    color: #007bff; /* Setzt die Textfarbe der Links auf ein Blau */
+    text-align: center; /* Zentriert den Text der Links */
+    display: block; /* Zeigt die Links als Blockelement an, sodass sie ihre eigene Zeile einnehmen */
+    margin-top: 10px; /* Fügt einen oberen Abstand zu den Links hinzu */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Fügt die Unterstreichung der Links beim Hover wieder hinzu */
 }
